@@ -3,8 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		031BE99F2E4983F800766472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031BE99A2E4983F800766472 /* Assets.xcassets */; };
+		031BE9A12E4983F800766472 /* HelloVibeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE99C2E4983F800766472 /* HelloVibeApp.swift */; };
+		031BE9A22E4983F800766472 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE99D2E4983F800766472 /* Item.swift */; };
+		031BE9A52E4983FD00766472 /* HelloVibeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE9A32E4983FD00766472 /* HelloVibeTests.swift */; };
+		031BE9A92E49840300766472 /* HelloVibeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE9A62E49840300766472 /* HelloVibeUITests.swift */; };
+		031BE9AA2E49840300766472 /* HelloVibeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031BE9A72E49840300766472 /* HelloVibeUITestsLaunchTests.swift */; };
+		03A21F972E4986FF001F66E5 /* ContentViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A21F962E4986F8001F66E5 /* ContentViewModelTests.swift */; };
+		03FF87422E49859C00D3F3D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF87412E49859C00D3F3D6 /* ContentView.swift */; };
+		03FF87442E4985A700D3F3D6 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF87432E4985A700D3F3D6 /* ContentViewModel.swift */; };
+		03FF87462E4985B400D3F3D6 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FF87452E4985B400D3F3D6 /* Greeting.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		031BE97D2E4983D300766472 /* PBXContainerItemProxy */ = {
@@ -27,25 +40,17 @@
 		031BE96D2E4983D200766472 /* HelloVibe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloVibe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		031BE97C2E4983D300766472 /* HelloVibeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVibeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		031BE9862E4983D300766472 /* HelloVibeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloVibeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031BE99A2E4983F800766472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031BE99C2E4983F800766472 /* HelloVibeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVibeApp.swift; sourceTree = "<group>"; };
+		031BE99D2E4983F800766472 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		031BE9A32E4983FD00766472 /* HelloVibeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVibeTests.swift; sourceTree = "<group>"; };
+		031BE9A62E49840300766472 /* HelloVibeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVibeUITests.swift; sourceTree = "<group>"; };
+		031BE9A72E49840300766472 /* HelloVibeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVibeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		03A21F962E4986F8001F66E5 /* ContentViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModelTests.swift; sourceTree = "<group>"; };
+		03FF87412E49859C00D3F3D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03FF87432E4985A700D3F3D6 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		03FF87452E4985B400D3F3D6 /* Greeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		031BE96F2E4983D200766472 /* HelloVibe */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloVibe;
-			sourceTree = "<group>";
-		};
-		031BE97F2E4983D300766472 /* HelloVibeTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloVibeTests;
-			sourceTree = "<group>";
-		};
-		031BE9892E4983D300766472 /* HelloVibeUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloVibeUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		031BE96A2E4983D200766472 /* Frameworks */ = {
@@ -75,9 +80,9 @@
 		031BE9642E4983D200766472 = {
 			isa = PBXGroup;
 			children = (
-				031BE96F2E4983D200766472 /* HelloVibe */,
-				031BE97F2E4983D300766472 /* HelloVibeTests */,
-				031BE9892E4983D300766472 /* HelloVibeUITests */,
+				031BE99E2E4983F800766472 /* HelloVibe */,
+				031BE9A42E4983FD00766472 /* HelloVibeTests */,
+				031BE9A82E49840300766472 /* HelloVibeUITests */,
 				031BE96E2E4983D200766472 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +95,69 @@
 				031BE9862E4983D300766472 /* HelloVibeUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		031BE99E2E4983F800766472 /* HelloVibe */ = {
+			isa = PBXGroup;
+			children = (
+				031BE9AF2E49845100766472 /* Views */,
+				031BE9AE2E49844A00766472 /* ViewModels */,
+				031BE9AD2E49844000766472 /* Services */,
+				031BE9AC2E49842900766472 /* Models */,
+				031BE99A2E4983F800766472 /* Assets.xcassets */,
+				031BE99C2E4983F800766472 /* HelloVibeApp.swift */,
+				031BE99D2E4983F800766472 /* Item.swift */,
+			);
+			path = HelloVibe;
+			sourceTree = "<group>";
+		};
+		031BE9A42E4983FD00766472 /* HelloVibeTests */ = {
+			isa = PBXGroup;
+			children = (
+				03A21F962E4986F8001F66E5 /* ContentViewModelTests.swift */,
+				031BE9A32E4983FD00766472 /* HelloVibeTests.swift */,
+			);
+			path = HelloVibeTests;
+			sourceTree = "<group>";
+		};
+		031BE9A82E49840300766472 /* HelloVibeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				031BE9A62E49840300766472 /* HelloVibeUITests.swift */,
+				031BE9A72E49840300766472 /* HelloVibeUITestsLaunchTests.swift */,
+			);
+			path = HelloVibeUITests;
+			sourceTree = "<group>";
+		};
+		031BE9AC2E49842900766472 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03FF87452E4985B400D3F3D6 /* Greeting.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		031BE9AD2E49844000766472 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		031BE9AE2E49844A00766472 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				03FF87432E4985A700D3F3D6 /* ContentViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		031BE9AF2E49845100766472 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03FF87412E49859C00D3F3D6 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +174,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				031BE96F2E4983D200766472 /* HelloVibe */,
 			);
 			name = HelloVibe;
 			packageProductDependencies = (
@@ -130,9 +195,6 @@
 			dependencies = (
 				031BE97E2E4983D300766472 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				031BE97F2E4983D300766472 /* HelloVibeTests */,
-			);
 			name = HelloVibeTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +214,6 @@
 			);
 			dependencies = (
 				031BE9882E4983D300766472 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				031BE9892E4983D300766472 /* HelloVibeUITests */,
 			);
 			name = HelloVibeUITests;
 			packageProductDependencies = (
@@ -187,6 +246,7 @@
 				};
 			};
 			buildConfigurationList = 031BE9682E4983D200766472 /* Build configuration list for PBXProject "HelloVibe" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +255,6 @@
 			);
 			mainGroup = 031BE9642E4983D200766472;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 031BE96E2E4983D200766472 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -212,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031BE99F2E4983F800766472 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03FF87462E4985B400D3F3D6 /* Greeting.swift in Sources */,
+				031BE9A12E4983F800766472 /* HelloVibeApp.swift in Sources */,
+				03FF87422E49859C00D3F3D6 /* ContentView.swift in Sources */,
+				031BE9A22E4983F800766472 /* Item.swift in Sources */,
+				03FF87442E4985A700D3F3D6 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A21F972E4986FF001F66E5 /* ContentViewModelTests.swift in Sources */,
+				031BE9A52E4983FD00766472 /* HelloVibeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +317,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				031BE9A92E49840300766472 /* HelloVibeUITests.swift in Sources */,
+				031BE9AA2E49840300766472 /* HelloVibeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
